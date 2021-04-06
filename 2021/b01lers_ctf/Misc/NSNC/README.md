@@ -42,7 +42,7 @@ $ echo 'MJRXIZT3NZPWKZTGL52GKZLTL5RWC3TUL5RDGX3XGBZG4X3MNFVTGX3SMU2GYX3UGMZXG7I=
          t/C}F}4US}1Ma}W%
 ```
 
-That certainly doesn't look like. But before we go through every pixel in the QR code again, let's try the [Magic recipe in CyberChef](https://gchq.github.io/CyberChef/#recipe=Magic(3,false,false,'')&input=TUpSWElaVDNOWlBXS1pUR0w1MkdLWkxUTDVSV0MzVFVMNVJER1gzWEdCWkc0WDNNTkZWVEdYM1NNVTJHWVgzVUdNWlhHN0k9):
+That certainly doesn't look right. But before we go through every pixel in the QR code again, let's try the [Magic recipe in CyberChef](https://gchq.github.io/CyberChef/#recipe=Magic(3,false,false,'')&input=TUpSWElaVDNOWlBXS1pUR0w1MkdLWkxUTDVSV0MzVFVMNVJER1gzWEdCWkc0WDNNTkZWVEdYM1NNVTJHWVgzVUdNWlhHN0k9):
 
 <img src="magic.png" alt="Our decoded flag." width="600">
 
