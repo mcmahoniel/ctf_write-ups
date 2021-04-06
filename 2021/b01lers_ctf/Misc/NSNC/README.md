@@ -14,7 +14,7 @@ Looking closely at the two panes, we can see what appears to be a QR code on the
 
 <img src="lawnmower_edited.png" alt="A modified version of our comic with two portions of a QR code visible." width="600">
 
-We can see that the two panes make up a single QR code with the top two-thirds on the left and the bottom third, flipped and rotated 90 degrees, on the right. We'll need to stitch them together to get our flag.
+We can see that the two panes make up a single QR code with the top two-thirds on the left and the bottom third, stretched and warped, on the right. We'll need to stitch them together to get our flag.
 
 We can draw the final QR code out by hand on a 33x33 grid of pixels, to match a [version 4 QR code](https://www.qrcode.com/en/about/version.html) like this. [QRazyBox](https://merricx.github.io/qrazybox/) will help us do this quickly and accurately:
 
