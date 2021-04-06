@@ -20,7 +20,7 @@ We can draw the final QR code out by hand on a 33x33 grid of pixels, to match a 
 
 <img src="qrazybox.png" alt="An online QR code editor." width="600">
 
-We can play around with the format a bit to make sure it matches our sample. Low error correction and mask pattern 6 seem to be a match.
+We can play around with the format a bit to make sure it matches our sample. Low error correction and mask pattern 6 seem to be a match:
 
 <img src="formatinfo.png" alt="Configuring our QR code." width="600">
 
