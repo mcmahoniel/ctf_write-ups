@@ -14,4 +14,6 @@ If we go back to Gino’s Twitter, we can see that he isn’t following anyone o
 
 Her Spotify is sparse, but it does have a public playlist. It’s called RS and has a subtitle of {}. That smells like a flag. See if you can catch it:
 
-That’s right, our flag is an anagram using the first letter of every song: `RS{sagittarius}`.
+<img src="flag.png" alt="Acrostic, not anagram." width="600">
+
+That’s right, our flag is an acrostic using the first letter of every song: `RS{sagittarius}`.
