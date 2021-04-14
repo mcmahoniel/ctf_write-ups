@@ -37,11 +37,7 @@ $ uncompyle6 snek.pyc > snek.py
 $ cat snek.py
 # uncompyle6 version 3.7.4
 # Python bytecode 3.7 (3394)
-# Decompiled from: Python 3.7.10 (default, Apr 10 2021, 18:08:58)
-# [Clang 12.0.0 (clang-1200.0.32.29)]
-# Embedded file name: snek.py
-# Compiled at: 2021-04-08 07:24:05
-# Size of source mod 2**32: 834 bytes
+...
 """
 Written for RITSEC CTF 2021
 Author: knif3
