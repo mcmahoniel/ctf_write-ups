@@ -74,7 +74,7 @@ else:
 ```
 We now have the decompiled script and can see that our input is encoded and compared against the encoded flag. We also see an interesting string, “TODO: Finish this challenge”. Could it be that there isn’t actually any encryption happening here?
 
-We can drop it into Cyberchef using the Magic recipe. And... nothing. But if we [remove the commas](https://gchq.github.io/CyberChef/#recipe=Magic(3,false,false,'')&input=OTcgOTggOTkgMTAwIDEwMSAxMDIgMTAzIDEwNCAxMDUgMTA2IDEwNyAxMDggMTA5IDExMCAxMTEgMTEyIDExMyAxMTQgMTE1IDExNiAxMTcgMTE4IDExOSAxMjAgMTIxIDEyMiA2NSA2NiA2NyA2OCA2OSA3MCA3MSA3MiA3MyA3NCA3NSA3NiA3NyA3OCA3OSA4MCA4MSA4MiA4MyA4NCA4NSA4NiA4NyA4OCA4OSA5MCA5NSA4MiA4MyAxMjMgOTcgMTA4IDEwOCA5NSAxMDQgMTA1IDM2IDM2IDk1IDk3IDExMCAxMDAgOTUgMTEwIDQ4IDk1IDk4IDEwNSAxMTYgNTEgMTI1):
+We can drop it into CyberChef using the Magic recipe. And... nothing. But if we [remove the commas](https://gchq.github.io/CyberChef/#recipe=Magic(3,false,false,'')&input=OTcgOTggOTkgMTAwIDEwMSAxMDIgMTAzIDEwNCAxMDUgMTA2IDEwNyAxMDggMTA5IDExMCAxMTEgMTEyIDExMyAxMTQgMTE1IDExNiAxMTcgMTE4IDExOSAxMjAgMTIxIDEyMiA2NSA2NiA2NyA2OCA2OSA3MCA3MSA3MiA3MyA3NCA3NSA3NiA3NyA3OCA3OSA4MCA4MSA4MiA4MyA4NCA4NSA4NiA4NyA4OCA4OSA5MCA5NSA4MiA4MyAxMjMgOTcgMTA4IDEwOCA5NSAxMDQgMTA1IDM2IDM2IDk1IDk3IDExMCAxMDAgOTUgMTEwIDQ4IDk1IDk4IDEwNSAxMTYgNTEgMTI1):
 
 <img src="magic.png" alt="Secret flag." width="600">
 
