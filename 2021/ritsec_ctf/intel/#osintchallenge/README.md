@@ -14,6 +14,7 @@ That contact information on the profile doesn’t give us a Twitter account, but
 
 The header image on her profile is our only clue:
 
+<img src="peace.jpg" alt="An artistic peace sign." width="600">
 
 As expected, reverse image search doesn’t help us. We’ll need to figure this out with the information we have.
 
