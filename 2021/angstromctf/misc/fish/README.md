@@ -2,13 +2,15 @@
 
 ## Challenge:
 
-Oh, fish! My dinner has turned transparent again. What will I eat now that I can't eat that yummy, yummy, fish head, mmmmmm head of fish mm so good...
+Oh, fish! My [dinner](fish.png) has turned transparent again. What will I eat now that I can't eat that yummy, yummy, fish head, mmmmmm head of fish mm so good...
 
 ## Solution:
 
-We have what appears to be a blank white image:
+We have what appears to be a completely transparent PNG:
 
-Running `pngcheck fish.png` didn’t reveal anything interesting and `strings fish.png` just yields garbage.
+<img src="fish.png" alt="One fish, two fish, red fish, transparent fish." width="600">
+
+Running `pngcheck fish.png` doesn’t reveal anything interesting and `strings fish.png` just yields garbage.
 
 If we upload the image to [StegOnline](https://stegonline.georgeom.net/) we don't seem much. But when we switch to “Full Red” (or Green or Blue):
 
