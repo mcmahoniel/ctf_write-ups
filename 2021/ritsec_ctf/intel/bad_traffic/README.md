@@ -13,6 +13,8 @@ The Google Drive link points to `bad_traffic.pcapng`. We could analyze this in W
 
 When we load it up, DNS immediately sticks out to us:
 
+<img src="dns.png" alt="Sneaky" width="600">
+
 We can see suspicious names like `group`, `passwd`, and `shadow` at the end of each DNS query. Now we need to find what DNS exfiltration tool presents this way.
 
 After a little Google searching (using terms like `dns exfiltration` and `dns “passwd” ctf`), we find [an article talking about DNS exfiltration](https://resources.infosecinstitute.com/topic/bypassing-security-products-via-dns-data-exfiltration/). Scrolling down to their Wireshark screenshots, they show very similar packets. Jumbles of encoded text followed by suspicious names.
