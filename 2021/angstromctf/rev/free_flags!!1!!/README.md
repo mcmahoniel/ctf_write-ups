@@ -10,7 +10,7 @@ Find it on the shell server at `/problems/2021/free_flags` or over netcat at `nc
 
 We're given a binary which we can run right now on the shell server:
 
-```
+```bash
 team8317@actf:~$ cd /problems/2021/free_flags
 team8317@actf:/problems/2021/free_flags$ ls
 flag.txt  free_flags
@@ -27,7 +27,7 @@ Running `strings` against the binary reveals some questions we haven’t seen ye
 
 Let’s open up Ghidra. In the decompilation we can see what may be our answers:
 
-```
+```c
   puts("What number am I thinking of???");
   __isoc99_scanf("%d",&local_11c);
   if (local_11c == 0x7a69) {
@@ -43,7 +43,7 @@ Let’s open up Ghidra. In the decompilation we can see what may be our answers:
 
 The number they're thinking of is `0x7a69`, or `31337` in decimal. That gets us to step 2:
 
-```
+```bash
 team8317@actf:/problems/2021/free_flags$ ./free_flags
 Congratulations! You are the 1000th CTFer!!! Fill out this short survey to get FREE FLAGS!!!
 What number am I thinking of???
@@ -57,7 +57,7 @@ From our decomplication, we know that we're working with `0x476` (`1142`) and `0
 
 Finally, we can see the word `banana` listed, and try that as our “animal”:
 
-```
+```bash
 team8317@actf:/problems/2021/free_flags$ ./free_flags
 Congratulations! You are the 1000th CTFer!!! Fill out this short survey to get FREE FLAGS!!!
 What number am I thinking of???
