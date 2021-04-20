@@ -16,7 +16,7 @@ We should be able to generate our own pickled payload, set it as the `contents` 
 
 There’s a good write-up [here](https://davidhamann.de/2020/04/05/exploiting-python-pickle/) with a script to generate an exploit. Unfortunately, everything we try seems to result in a `500` error. Using a trick discovered [here](https://r3billions.com/writeup-pickle-store/), we can try `sleep 5` to confirm that our code is getting executed on the server:
 
-```
+```python
 import pickle
 import base64
 import os
