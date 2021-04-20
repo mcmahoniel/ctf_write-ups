@@ -7,7 +7,7 @@ No step on snek
 ## Solution:
 
 We have a file called `snek`:
-```
+```bash
 $ file snek
 snek: python 3.7 byte-compiled
 ```
@@ -15,7 +15,7 @@ So instead of a binary this is a compiled Python file (usually a `.pyc`). We als
 
 
 Let’s try to run it:
-```
+```bash
 $ python snek
 Enter my name: Foo
 WRONG
@@ -23,7 +23,7 @@ WRONG
 We can open `snek` directly, but it’s mostly gibberish. Running `strings` also doesn’t help. We’ll need to decompile the code to see what’s going on.
 
 If we look up how to decompile byte-compiled Python, we’ll probably come across [this Stack Overflow question](https://stackoverflow.com/questions/5287253/is-it-possible-to-decompile-a-compiled-pyc-file-into-a-py-file) which presents some options. Let’s try `uncompyle6`:
-```
+```bash
 $ pip install uncompyle6
 ...
 $ uncompyle6 snek
@@ -31,7 +31,7 @@ $ uncompyle6 snek
 # path snek must point to a Python source that can be compiled, or Python bytecode (.pyc, .pyo)
 ```
 Easy enough:
-```
+```bash
 $ mv snek snek.pyc
 $ uncompyle6 snek.pyc > snek.py
 $ cat snek.py
