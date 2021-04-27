@@ -8,7 +8,7 @@ My local pizzeria is trying out a new logo that is bringing in a lot of new cust
 
 We have a single image:
 
-<img src="hiddenmessage.jpg" alt="Pie" width="200">
+<img src="hiddenmsg.jpg" alt="Pie" width="200">
 
 Let's take a quick look at the strings:
 
