@@ -10,6 +10,8 @@ https://drive.google.com/drive/folders/1iXQs9Ej4D7mg7Gl9a0vu6UgAZ8MqTsiE?usp=sha
 
 We know his full name and we know what he looks like:
 
+<img src="justin.PNG" alt="This person does not exist." width="200">
+
 Reverse image searching the headshot won’t do anything for us, the picture was probably generated for this challenge.
 
 If we search Facebook for “Justin Zimmerman”, one result stands out. They’re listed as “Account Manager at Альфа-Банк” (Alfa-Bank), their alma mater is the University of Maryland, and their picture seems to be a match.
