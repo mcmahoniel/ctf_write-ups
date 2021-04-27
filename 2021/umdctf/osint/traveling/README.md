@@ -12,8 +12,12 @@ https://drive.google.com/drive/folders/1D9dBgba101Tp7R4hlBG4-CmGqmafoDtq?usp=sha
 
 We are provided with an image of a building to identify:
 
+<img src="Building.jpg" alt="A mysterious building." width="600">
+
 From the signage, it’s clear that this building is somewhere in the United States. It’s likely a larger city by the looks of the large office buildings. And we’re looking at a strangely-shaped intersection, as indicated by the diagonal building at the far end of the street.
 
 A Google search for `500 pine` gives us a good lead in San Francisco, California. On the map, we can see California Street intersecting with Market Street at an angle. And if we look in 3D, there’s our building and the distinctive peak on top of the building in the distance:
+
+<img src="3D.png" alt="A new perspective." width="600">
 
 Looking at the map, we’re told this is the 555 California Street Building, formerly known as the Bank of America Center. And that’s our flag: `UMDCTF-{Bank of America Center}`.
