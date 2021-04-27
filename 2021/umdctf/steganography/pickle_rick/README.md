@@ -10,7 +10,7 @@ https://drive.google.com/drive/folders/135epDZ18MdIycbBt_Fekbi8hdF-83v6Y?usp=sha
 
 We have two WAV files with two Rick Astley songs, the classic Never Gonna Give You Up and Together Forever.
 
-If we run a Google search for “Alan Eliasen” we find a page discussing steganography tools and an online version of `steghide`. If we upload `rickroll.wav`, we get an error. However, `together-forever-encoded.wav` decodes immediately to `The password is "big_chungus"!`.
+If we run a Google search for “Alan Eliasen” we find [a page discussing steganography tools](https://futureboy.us/stegano/) and an online version of `steghide`. If we upload `rickroll.wav`, we get an error. However, `together-forever-encoded.wav` decodes immediately to `The password is "big_chungus"!`.
 
 Let’s try that password to decode `rickroll.wav`...
 
