@@ -20,18 +20,22 @@ As it gets later, the camera feed gets harder to parse, switching from color to 
 
 The clearest word above the map is “Советская”, which translates to “Soviet”. We also see “Совет” at the top, which is “advice” or “tip”. We can try to have Google help us by autocompleting what we know:
 
-<img src="leads.png" alt="Interesting" width="600">
+<img src="leads.png" alt="Interesting" width="300">
 
 If we try “Советская пл…”, we see a number of results for “Советская площадь”, or “Soviet Square”.
 
 When a bus stops, we can catch a glimpse of a logo:
 
-<img src="bus.png" alt="Up and Down" width="600">
+<img src="bus.png" alt="Up and Down" width="300">
 
 It’s tough to make out, but Google autocomplete fills it in for us: “транспорт башкортостана”, “Transport Bashkortostan”. So we know that we’re looking in Bashkortostan, and probably in the capital city of Уфа (Ufa).
 
-If we look closely at the map, we can clearly see a park. Searching Ufa for a park with a similar pattern, we find Cад Александра Матросова:
+If we look closely at the map, we can clearly see a park:
 
-<img src="park.png" alt="Green" width="600">
+<img src="map.png" alt="Blurry, but it'll do." width="300">
+
+Searching Ufa for a park with a similar pattern, we find Cад Александра Матросова:
+
+<img src="park.png" alt="Green" width="300">
 
 The red indicator on the map points to our flag: `UMDCTF-{Ulitsa_Pushkina}`.
