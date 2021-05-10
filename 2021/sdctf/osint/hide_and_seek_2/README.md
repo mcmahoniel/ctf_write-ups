@@ -22,7 +22,7 @@ If we browse to https://discord.gg/4KcDWnUYMs we're invited to "sdctf admin chat
 
 We find out quickly that everything from `sdctf{m@st3R_h@Ck3R_0000}` through `sdctf{m@st3R_h@Ck3R_9999}` is listed:
 
-<img src="so_many.png" alt="Oh no..." width="600">
+<img src="so_many.png" alt="Oh no..." width="200">
 
 We'll need to use the second piece of information to narrow down which of these options is correct.
 
