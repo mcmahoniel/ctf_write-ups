@@ -12,11 +12,11 @@ The audio file sounds normal. We can open it up in Sonic Vizualizer to take a cl
 
 At first glance, everything looks normal:
 
-<img src="skew.png" alt="Nothing to see here." width="600">
+<img src="boring.png" alt="Nothing to see here." width="600">
 
 But if we add a spectrogram, we can see something that looks out of place:
 
-<img src="boring.png" alt="Or IS there..." width="600">
+<img src="skew.png" alt="Or IS there..." width="600">
 
 With a little adjustment, we can see some hidden hex:
 
