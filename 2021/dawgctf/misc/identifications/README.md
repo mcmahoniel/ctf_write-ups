@@ -16,27 +16,29 @@ We're given two images.
 
 The first is a dark, but clear, picture of a Verizon office:
 
-<img src="identifications_1.jpg" alt="Everywhere I need it to be." width="200">
+<img src="identifications_1.jpg" alt="Everywhere I need it to be." width="600">
 
 The second shows the same office in the background, with a list of wireless networks on a laptop in the foreground:
 
-<img src="identifications_2.jpg" alt="I assume." width="200">
+<img src="identifications_2.jpg" alt="I assume." width="600">
 
 We can search [WiGLE](https://wigle.net/) for the BSSIDs/SSIDs in the list. It's possble they've been logged, which would give us a general geographic location.
 
 We get a hit for `CableWiFi`, in a town called Mount Airy, just west of Baltimore:
 
-<img src="wigle.png" alt="Enhance" width="200">
+<img src="wigle.png" alt="Enhance" width="600">
 
 Now we can search Google for some of the other networks to get a more accurate position.
 
 If we search for 'Cappuccino', we find a surgery:
 
+<img src="cappuccino.png" alt="Coffee" width="600">
+
 Nearby, we find two other locations matching our network names, CarterQue and Katana Sushi. We've found the right place!
 
 If we try street view, we hav a match for our Verizon office:
 
-<img src="streetview.png" alt="Enhanced" width="200">
+<img src="streetview.png" alt="Enhanced" width="600">
 
 Our last step is to find the [CLLI code](https://en.wikipedia.org/wiki/CLLI_code) for this location. If we consult [a list of codes for the state of Maryland](https://www.telcodata.us/search-area-code-exchange-by-company-state?company=Verizon&state=MD), and search for Mount Airy, we can find our flag.
 
