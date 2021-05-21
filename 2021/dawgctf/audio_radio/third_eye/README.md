@@ -8,7 +8,7 @@ third_eye.mp3: https://drive.google.com/file/d/13Je41zqYscApr-f6GJ5kC8RjeRP6hjUi
 
 ## Solution:
 
-The audio file sounds normal. We can open it up in Sonic Vizualizer to take a closer look.
+The audio file sounds normal. We can open it up in [Sonic Visualizer](https://www.sonicvisualiser.org/) to take a closer look.
 
 At first glance, everything looks normal:
 
