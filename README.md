@@ -1,6 +1,6 @@
 # CTF Write-Ups
 
-### [DCTF 2021](https://ctftime.org/event/1361) // 14-16 May 2021
+### [dCTF 2021](https://ctftime.org/event/1361) // 14-16 May 2021
 
 * Web > [Simple web](/2021/dctf/web/simple_web/README.md)
 * Web > [Secure API](/2021/dctf/web/secure_api/README.md)
